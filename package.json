@@ -1,0 +1,22 @@
+{
+  "name": "tl",
+  "version": "1.0.0",
+  "description": "A command line translator",
+  "author": "Mathews Machado <mw.dev.io@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MathewsMachado/tl"
+  },
+  "main": "src/index.js",
+  "bin": {
+    "tl": "src/index.js"
+  },
+  "scripts": {
+    "install:global": "npm install -g .",
+    "uninstall:global": "npm uninstall -g ."
+  },
+  "dependencies": {
+    "puppeteer-core": "^10.1.0"
+  }
+}
