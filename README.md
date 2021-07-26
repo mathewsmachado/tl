@@ -10,8 +10,8 @@ Being a non-native speaker of English and having to deal with the language every
 
 ## Features
 
-- [Translate from any language to multiple languages](##)
-- [Customizable](##)
+- [Translate from any language to multiple languages](https://github.com/MathewsMachado/tl#customization)
+- [Customizable](https://github.com/MathewsMachado/tl#customization)
 
 ## Getting Started
 
@@ -28,7 +28,7 @@ cd tl
 
 ### Setting up the Environment Variables
 
-In order for this to work, you'll have to configure the ["BROWSER_PATH"](##) constant into the ["constants"](##) file before installing it.
+In order for this to work, you'll have to configure the ["BROWSER_PATH"](https://github.com/MathewsMachado/tl#customization) constant into the ["constants"](https://github.com/MathewsMachado/tl/blob/main/src/constants.js) file before installing it.
 
 ### Installation
 
@@ -47,7 +47,7 @@ tl {{ language to translate }} {{ text to translate }}
 
 ### Parameters
 
-[{{ language to translate }}](##): The language the text is going to be translated into.
+[{{ language to translate }}](https://github.com/MathewsMachado/tl#customization): The language the text is going to be translated into.
 
 {{ text to translate }}: The text to be translated.
 
@@ -63,7 +63,7 @@ tl en como escrever um bom \"README\"
 
 ## Customization
 
-This CLI is customizable and all the customizable options are inside the ["constants"](##) file, the only one you need to modify.
+This CLI is customizable and all the customizable options are inside the ["constants"](https://github.com/MathewsMachado/tl/blob/main/src/constants.js) file, the only one you need to modify.
 
 - **BROWSER_PATH**: The path to your browser executable. In Linux, the path is under the "bin" folder.
 
